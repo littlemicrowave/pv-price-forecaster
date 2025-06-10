@@ -2,7 +2,7 @@
 
 You can simply pull image from dockerhub or build image using Dockerfile in the repo.
 
-**docker-compose.yml** with watchtower to continously update the image in case of update, which is a part of deployment pipeline: 
+**docker-compose.yml** with watchtower service to continuously update the app image in case of update, which is a part of the deployment pipeline: 
 ```
 services:
   watchtower:
