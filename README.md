@@ -24,6 +24,7 @@ Link to the running app: [APP](http://vm5427.kaj.pouta.csc.fi/)
 **A simple Flask web application for predicting solar panel prices using XGBoost**, developed as part of the AIDA project course at JAMK University of Applied Sciences.
 
 ### **PROJECT DONE FOR THE EDUCATIONAL PURPOSE AND MODEL HAVE VERY BIG MAPE VALIDATION ERROR**
+**Will soon add my Jupyter notebooks**
 
 ---
 
