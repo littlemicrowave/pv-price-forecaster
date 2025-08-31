@@ -1,3 +1,5 @@
+# Dockerized APP for the PV price forecasting project
+Data analysis, preprocessing and modelling can be found here: [GitHub Link](https://github.com/littlemicrowave/pv-price-forecaster-AIDA)
 # Configuration
 
 You can simply pull image from dockerhub or build image using Dockerfile in the repo.
@@ -22,9 +24,7 @@ services:
 
 **A simple Flask web application for predicting solar panel prices using XGBoost**, developed as part of the AIDA project course at JAMK University of Applied Sciences.
 
-### **PROJECT DONE FOR THE EDUCATIONAL PURPOSE AND MODEL HAVE VERY BIG MAPE VALIDATION ERROR**
-**Will soon add my Jupyter notebooks**
-
+### **PROJECT DONE FOR THE EDUCATIONAL PURPOSE AND MODEL HAVE VERY BIG MAPE VALIDATION ERROR DUE TO DATA QUALITY ISSUES**
 ---
 
 ## 🌞 Project Description
