@@ -18,7 +18,6 @@ services:
    ports:
     - 80:8080
 ```
-Link to the running app: [APP](http://vm5427.kaj.pouta.csc.fi/)
 # ☀️ PV Price Forecaster
 
 **A simple Flask web application for predicting solar panel prices using XGBoost**, developed as part of the AIDA project course at JAMK University of Applied Sciences.
