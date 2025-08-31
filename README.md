@@ -20,14 +20,14 @@ services:
    ports:
     - 80:8080
 ```
-# ☀️ PV Price Forecaster
+# ☀PV Price Forecaster
 
 **A simple Flask web application for predicting solar panel prices using XGBoost**, developed as part of the AIDA project course at JAMK University of Applied Sciences.
 
 ### **PROJECT DONE FOR THE EDUCATIONAL PURPOSE AND MODEL HAVE VERY BIG MAPE VALIDATION ERROR DUE TO DATA QUALITY ISSUES**
 ---
 
-## 🌞 Project Description
+## Project Description
 
 This application serves a web interface powered by **Flask** and uses a pre-trained **XGBoost** regression model to estimate the **price of solar panel modules** based on various input parameters.
 
@@ -35,39 +35,39 @@ While a `.h5` deep learning model (trained with TensorFlow) is included in the D
 
 ---
 
-## 📊 Modeling Approach
+## Modeling Approach
 
 As part of the **AIDA project course** at JAMK University of Applied Sciences, this project explored a wide range of forecasting and regression strategies to identify the most effective method for solar panel price prediction. The development process included:
 
-### 🔁 Time Series Models
+### Time Series Models
 
 * **ARIMA**
 * **Auto-regressive Decision Tree**
 * **ElasticNet Auto-regression**
 
-### 📈 Standard Regression Models
+### Standard Regression Models
 
 * **ElasticNet**
 * **Decision Tree Regressor**
 * **XGBoost Regressor** – Ultimately selected for deployment due to its accuracy and robustness.
 * **Stacking Regressor** – An ensemble combining XGBoost → DecisionTree → LinearRegression.
 
-### 🧠 Deep Learning Models
+### Deep Learning Models
 
 * **Dense Neural Network** – Fully connected layers; included in the image but **not used in production**.
 * **Transformer + LSTM Hybrid** – Tested for capturing long-term dependencies in time-series data.
 
 ---
 
-## 🧠 Features
+## Features
 
-* ✅ Web-based UI with Flask
-* ✅ XGBoost model
-* 🐳 Dockerized for easy deployment
+* Web-based UI with Flask
+* XGBoost model
+* Dockerized for easy deployment
 
 ---
 
-## 🛠 Tech Stack
+## Stack
 
 | Component    | Version |
 | ------------ | ------- |
@@ -81,7 +81,7 @@ As part of the **AIDA project course** at JAMK University of Applied Sciences, t
 
 ---
 
-## 📦 Docker
+## Docker
 
 ### Dockerfile
 
@@ -102,11 +102,11 @@ docker run -p 8080:8080 wearecooked/pv-price-forecaster:alpha
 ```
 
 The app will be available at:
-📍 **[http://localhost:8080](http://localhost:8080)**
+**[http://localhost:8080](http://localhost:8080)**
 
 ---
 
-## 🧪 Development Notes
+## Development Notes
 
 * The TensorFlow model (`model.h5`) is included in the image but not loaded in `app.py`.
   To enable it, modify the backend logic (commented out in the app.py, and install tensorflow==2.10.0) — though the XGB model offers better performance.
@@ -115,7 +115,7 @@ The app will be available at:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
